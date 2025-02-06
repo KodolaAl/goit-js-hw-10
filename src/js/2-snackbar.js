@@ -31,6 +31,7 @@ refs.form.addEventListener('submit', event => {
         messageColor: 'white',
         progressBar: false,
       });
+      event.target.reset();
     })
     .catch(delay => {
       iziToast.show({
@@ -40,5 +41,6 @@ refs.form.addEventListener('submit', event => {
         messageColor: 'white',
         progressBar: false,
       });
+      event.target.reset();
     });
 });
