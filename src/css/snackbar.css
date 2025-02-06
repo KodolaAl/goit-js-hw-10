@@ -1,0 +1,54 @@
+.form {
+  width: 360px;
+}
+
+.form > label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  height: 72px;
+  margin-bottom: 16px;
+}
+
+.form > label > input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+fieldset {
+  width: 340px;
+  height: 78px;
+
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 24px;
+}
+
+legend {
+  text-align: left;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
